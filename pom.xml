@@ -8,7 +8,7 @@
 	
   <groupId>jenkins.plugins</groupId>
   <artifactId>nis-notification-lamp</artifactId>
-  <version>1.39</version>
+  <version>1.40-SNAPSHOT</version>
   <packaging>hpi</packaging>
   
   <name>NIS notification lamp</name>
