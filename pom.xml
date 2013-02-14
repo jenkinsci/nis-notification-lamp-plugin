@@ -6,9 +6,8 @@
     <version>1.424</version><!-- which version of Jenkins is this plugin built against? -->
   </parent>
 	
-  <groupId>jenkins.plugins</groupId>
   <artifactId>nis-notification-lamp</artifactId>
-  <version>1.131</version>
+  <version>1.131-SNAPSHOT</version>
   <packaging>hpi</packaging>
   
   <name>NIS notification lamp</name>
@@ -27,9 +26,9 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/nis-notification-lamp-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/nis-notification-lamp-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/nis-notification-lamp-plugin</url>
+    <connection>scm:git:ssh://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
   </scm>
 
   <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
