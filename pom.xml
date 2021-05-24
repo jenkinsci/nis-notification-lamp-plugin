@@ -51,6 +51,17 @@
   		<artifactId>httpclient</artifactId>
   		<version>4.1.2</version>
   	</dependency>
+    <dependency>
+      <groupId>org.jvnet.hudson</groupId>
+      <artifactId>jtidy</artifactId>
+      <version>4aug2000r7-dev-hudson-1</version>
+      <exclusions>
+        <exclusion>
+          <groupId>jdom</groupId>
+          <artifactId>jdom</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
   </dependencies>
   <organization>
   	<name>New Image Systems GmbH</name>
